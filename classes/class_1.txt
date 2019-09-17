@@ -1,0 +1,15 @@
+Class Glass
+
+Attributes:
+color (string)
+material (string)
+maximumVolume (integer)
+currentVolume (integer)
+stem (boolean)
+
+Methods:
+calculatePercentFull (currentVolume / maximumVolume)
+fill (increases currentVolume by 1)
+drinkFrom (decreases currentVolume by 1)
+spill (decreases currentVolume by 2)
+changeColor (changes color attribute)
