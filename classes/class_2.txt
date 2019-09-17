@@ -9,6 +9,6 @@ menuOpen (boolean)
 
 Methods:
 readPage (increases currentPage 1)
-completionPercent (numberOfPages / currentPage)
+completionPercent (currentPage / numberOfPages)
 reviewPage (decreases currentPage 1)
 closeBook (bookOpen = false)
