@@ -1,0 +1,14 @@
+Class Menu
+
+Attributes:
+material (string)
+numberOfPages (integer)
+currentPage (integer)
+hardCover (boolean)
+menuOpen (boolean)
+
+Methods:
+readPage (increases currentPage 1)
+completionPercent (numberOfPages / currentPage)
+reviewPage (decreases currentPage 1)
+closeBook (bookOpen = false)
