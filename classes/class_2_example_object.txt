@@ -1,0 +1,14 @@
+Wine Menu
+
+Attributes:
+material: "plastic"
+numberOfPages: 10
+currentPage: 5
+hardCover: false
+menuOpen: true
+
+Methods:
+readPage: currentPage = 6
+completionPercent: 6 / 10 = 0.6
+reviewPage: currentPage = 5
+closeBook: bookOpen = false
