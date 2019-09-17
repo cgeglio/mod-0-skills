@@ -1,0 +1,15 @@
+Wine Glass
+
+Attributes:
+color: "clear"
+material: "glass"
+maximumVolume: 100
+currentVolume: 50
+stem (boolean): true
+
+Methods:
+calculatePercentFull: 50 / 100 = 0.5
+fill: currentVolume = 51
+drinkFrom: currentVolume = 50
+spill: currentVolume = 48
+changeColor: color = "red"
